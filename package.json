@@ -1,0 +1,31 @@
+{
+  "name": "notifier",
+  "version": "1.0.1",
+  "description": "Allows client to sent notifications via one of serveral services (email, sms, slack)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": ">6.0.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "keywords": [
+    "notification"
+  ],
+  "author": "Farhad Farzaneh (etcetc)",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "@slack/web-api": "^6.2.4",
+    "@slack/webhook": "^5.0.2",
+    "aws-sdk": "^2.413.0",
+    "request": "^2.88.0",
+    "twilio": "^3.63.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
